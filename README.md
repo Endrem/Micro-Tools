@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ![C++](https://img.shields.io/badge/C++-C++20-blue.svg)
-![platform](https://img.shields.io/badge/Platform-win--64-lightgrey.svg)
+![Platform](https://img.shields.io/badge/platform-win--64-lightgrey.svg)
 [![Donate](https://img.shields.io/badge/donate-PayPal-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=XH8R7VFJQE3YQ&currency_code=USD)
 
 # Micro-Tools
