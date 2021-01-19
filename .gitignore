@@ -1,7 +1,11 @@
-# Arguments-Grabber Environment Files
+# Arguments-Grabber Files
 Arguments-Grabber/Arguments-Grabber/
 Arguments-Grabber/Releases/
 Arguments-Grabber/x64/
 Arguments-Grabber/x86/
 Arguments-Grabber/Arguments-Grabber.sln
 Arguments-Grabber/Notes.txt
+
+# Duplication-Checker Files
+Duplication-Checker/Notes.txt
+Duplication-Checker/Results.txt
