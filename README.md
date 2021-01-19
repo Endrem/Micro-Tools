@@ -11,7 +11,7 @@ Collection of small tools. (Written in various languages)
 ### Arguments-Grabber (C++ | win-64)
 Arguments that are passed to this program will be copied to the clipboard.  This program was originally created to grab magnet links from a web browser when copying was not an option.
 
-### Duplication-Checker (PowerShell & Python)
+### Duplication-Checker (PowerShell)
 Scans directories for duplicate files.  Two scripts are included to allow duplication checking based on either filename or MD5-hash.  The scripts do **not** delete duplicate files and instead, saves the list to a TXT or CSV.
 
 ## Author
