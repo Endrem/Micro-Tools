@@ -7,7 +7,7 @@
 # Micro-Tools
 Collection of small tools. (Written in various languages)
 
-## Description
+## Descriptions
 ### Arguments-Grabber (C++ | win-64)
 Arguments that are passed to this program will be copied to the clipboard.  This program was originally created to grab magnet links from a web browser when copying was not an option.
 
