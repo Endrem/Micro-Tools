@@ -7,5 +7,5 @@ $Duplicates = $HashedFiles | Group-Object -Property Hash -NoElement | Where-Obje
 # Only keep files whos hashes match duplicate hashes.  Sort to keep the output organized.
 $Output = $HashedFiles | Where-Object {$_.Hash -in $Duplicates.Name} | Sort-Object -Property Hash
 
-# Save output to file.
-Set-Content -Path "Results.txt" -Value ($Output | Out-String)
+# Save output to CSV.
+$Output | Export-CSV -Path "Results.CSV"
