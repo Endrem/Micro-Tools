@@ -7,5 +7,5 @@ $Duplicates = $Files | Group-Object -Property Name -NoElement | Where-Object -Pr
 # Only keep files whos filenames match duplicate filenames.  Sort to keep the output organized.
 $Output = $Files | Where-Object {$_.Name -in $Duplicates.Name} | Sort-Object -Property BaseName | Select-Object -Property Name, FullName
 
-# Save output to file.
-Set-Content -Path "Results.txt" -Value ($Output | Out-String)
+# Save output to CSV.
+$Output | Export-CSV -Path "Results.CSV"
