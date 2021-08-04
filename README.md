@@ -14,6 +14,9 @@ Arguments that are passed to this program will be copied to the clipboard.  This
 ### Duplication-Checker (PowerShell)
 Scans directories for duplicate files.  Two scripts are included to allow duplication checking based on either filename or MD5-hash.  The scripts do **not** delete duplicate files and instead, saves the list to a CSV file.
 
+### Duplication-Corrector (PowerShell)
+Scans and deduplicates files within a chosen directory.  The duplication checking uses MD5 hashing.  The script does **not** delete duplicate files and instead saves a copy of each unique file to a destination directory.
+
 ## Author
 The contents of this repository were created by [Cole Chapman](https://github.com/Endrem/).
 
