@@ -11,6 +11,9 @@ Collection of small tools. (Written in various languages)
 ### Arguments-Grabber (C++ | win-64)
 Arguments that are passed to this program will be copied to the clipboard.  This program was originally created to grab magnet links from a web browser when copying was not an option.
 
+### DDC-Hierarchy (PowerShell)
+Creates a folder hierarchy based on the Dewey Decimal Classification.  This script utilizes the DDC23 classes and summaries set by OCLC (See: [ddc23-summaries.pdf](https://www.oclc.org/content/dam/oclc/dewey/ddc23-summaries.pdf)).  The hierarchy that will be created includes the main classes, hundred divisions, and thousand sections.
+
 ### Duplication-Checker (PowerShell)
 Scans directories for duplicate files.  Two scripts are included to allow duplication checking based on either filename or MD5-hash.  The scripts do **not** delete duplicate files and instead, saves the list to a CSV file.
 
