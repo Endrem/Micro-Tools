@@ -1124,11 +1124,11 @@ $ThousandSections = @(
 # Ensure that the path defined above has a trailing slash.
 if ( [char]($CreationDirectory[-1]) -ne "\" ){$CreationDirectory += "\"}
 
-# Create First Summary Folders
+# Create the main classes folders.
 $MainClasses | ForEach-Object {New-Item -ItemType Directory -Path ($CreationDirectory + $_)}
 
-# Create Second Summary Folders
+# Create the hundred divisions folders.
 $HundredDivisions | ForEach-Object {New-Item -ItemType Directory -Path ($CreationDirectory + $MainClasses[($_.Substring(0,1))] + '\' + $_)}
 
-# Create Third Summary Folders
+# Create the thousand sections folders.
 $ThousandSections | ForEach-Object {New-Item -ItemType Directory -Path ($CreationDirectory + $MainClasses[($_.Substring(0,1))] + '\' + $HundredDivisions[($_.Substring(0,2))] + "\" + $_)}
